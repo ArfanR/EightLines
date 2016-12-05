@@ -11,8 +11,14 @@ import javax.swing.border.Border;
 public class AppearanceConstants {
 	
 	//colors, fonts, ect that can be statically referenced by other classes
-	public static final Color darkBlue = new Color(0,0,139);
-	public static final Color lightBlue = new Color(135,206,250);
+	private static final ImageIcon exitIconLarge = new ImageIcon("images/question_mark.png");
+	private static final Image exitImage = exitIconLarge.getImage();
+	private static final Image exitImageScaled = exitImage.getScaledInstance(50, 50,  java.awt.Image.SCALE_SMOOTH);
+	
+	public static final ImageIcon exitIcon = new ImageIcon(exitImageScaled);
+	
+	public static final Color darkBlue = new Color(0,0,0);
+	public static final Color lightBlue = new Color(255,255,255);
 	public static final Color mediumGray = new Color(100, 100, 100);
 	
 	public static final Font fontSmall = new Font("Palatino", Font.BOLD,18);
