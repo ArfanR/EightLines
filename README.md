@@ -1,4 +1,1 @@
-# EightLines
-LA Devfest 2016
-
-Multiplayer whiteboard coding game designed to help prepare for interviews.
+Multiplayer jeopardy game designed to help prepare for interviews.
